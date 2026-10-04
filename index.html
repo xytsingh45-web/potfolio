@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tripti - Creative Developer & UI Engineer Portfolio.">
+  <title>Tripti | Creative Developer & UI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob-bg"></div>
+  <header class="navbar">
+    <a href="#hero" class="logo">Tripti<span>.dev</span></a>
+    <nav class="nav-links"><a href="#about">About</a><a href="#projects">Work</a><a href="#contact" class="btn-sm">Let's Talk</a></nav>
+  </header>
+  <main>
+    <section id="hero" class="hero">
+      <div class="badge"><span class="pulse"></span> Available for new opportunities</div>
+      <h1>Crafting <span class="gradient-text">digital experiences</span> with code & design</h1>
+      <p class="hero-desc">Hi, I'm Tripti. A frontend engineer & creative developer crafting performant, accessible, and visually stunning web applications.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Explore Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-head"><h2>About & Expertise</h2><p>Blending engineering rigor with visual refinement</p></div>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Frontend Architecture</h3><p>React, Next.js, TypeScript, and modern scalable state management.</p></div>
+        <div class="skill-card"><h3>Creative Interactions</h3><p>Micro-interactions, smooth CSS motion, and accessible dynamic UI flows.</p></div>
+        <div class="skill-card"><h3>Performance & SEO</h3><p>Lighthouse 100 audits, Core Web Vitals optimization, and semantic web.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-head"><h2>Featured Projects</h2><p>Selected works highlighting design and engineering</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-tag">Web Application</div>
+          <h3>Nova Analytics</h3>
+          <p>High-performance data visualization dashboard with real-time streaming charts.</p>
+          <a href="#" class="project-link">View Project &rarr;</a>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">Design System</div>
+          <h3>Aura UI Kit</h3>
+          <p>Accessible component library featuring glassmorphic design and theme tokens.</p>
+          <a href="#" class="project-link">View Project &rarr;</a>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">AI Platform</div>
+          <h3>Pulse AI Studio</h3>
+          <p>Generative creative workspace combining multimodal AI with canvas tools.</p>
+          <a href="#" class="project-link">View Project &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-card">
+        <h2>Let's build something exceptional</h2>
+        <p>Have an idea or looking to collaborate? Drop me a message below.</p>
+        <form id="contact-form" class="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" rows="3" placeholder="Tell me about your project..." required></textarea>
+          <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Tripti. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
